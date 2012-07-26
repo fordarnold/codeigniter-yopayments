@@ -23,12 +23,12 @@
 	/**
 	 * API Username
 	 **/
-	$config['api_username']   = ''; // Sandbox Server API Username
+	$config['api_username']   = ''; // Sandbox or Prod Server API Username
 
 	/**
 	 * API Password
 	 **/
-	$config['api_password']    = ''; // Sandbox Server API Password
+	$config['api_password']    = ''; // Sandbox or Prod Server API Password
 
 
 /* End of file yo.php */

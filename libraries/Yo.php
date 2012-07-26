@@ -58,7 +58,7 @@
          * ------------------------------------------------------------------------------------------------------------------
          *
          */
-        public function deposit($amount, $phone, $narrative="", $ref_text="")
+        public function deposit($amount, $phone, $narrative, $ref_text="")
         {
             $xml_request='<?xml version="1.0" encoding="UTF-8"?>';
             $xml_request=$xml_request.'<AutoCreate>';
