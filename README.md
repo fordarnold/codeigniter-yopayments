@@ -20,13 +20,17 @@ highly successful mobile money transfer phenomenon.
 #### Deposit Funds
 Here, you pull funds FROM a phone's Mobile Money account and deposit them INTO your Yo! Payments business account.
 Example:
-$this->yo->deposit('3000', '256772123456');
+
+	$this->yo->deposit('3000', '256772123456');
+	
 deducts UGX.3000 from the number 256772123456
 
 #### Withdraw Funds
 Here, you remove funds FROM your Yo! Payments business account and ADD them to a phone's Mobile Money account.
 Example:
-$this->yo->withdraw('3000', '256772123456');
+
+	$this->yo->withdraw('3000', '256772123456');
+
 adds UGX.3000 to the number 256772123456
 
 ### NB:
