@@ -23,7 +23,11 @@ Example:
 
 	$this->yo->deposit('3000', '256772123456', 'Description of Transaction');
 	
-deducts UGX.3000 from the number 256772123456
+deducts UGX.3000 from the number 256772123456.
+
+To see the response returned by this request, just use the var_dump() function like so:
+
+	var_dump($this->yo->deposit('3000', '256772123456', 'Description of Transaction'));
 
 #### Withdraw Funds
 Here, you remove funds FROM your Yo! Payments business account and ADD them to a phone's Mobile Money account.
