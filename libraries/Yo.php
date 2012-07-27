@@ -98,7 +98,7 @@
             $xml_request=$xml_request.'<Request>';
             $xml_request=$xml_request.'<APIUsername>'.$this->api_username.'</APIUsername>';
             $xml_request=$xml_request.'<APIPassword>'.$this->api_password.'</APIPassword>';
-            $xml_request=$xml_request.'<Method>acdepositfunds</Method>';
+            $xml_request=$xml_request.'<Method>acwithdrawfunds</Method>';
             $xml_request=$xml_request.'<NonBlocking>FALSE</NonBlocking>';
             $xml_request=$xml_request.'<Amount>'.$amount.'</Amount>';
             $xml_request=$xml_request.'<Account>'.$phone.'</Account>';
