@@ -41,6 +41,11 @@ adds UGX.3000 to the number 256772123456
 * Read the Yo! Payments API documentation for more information at http://payments.yo.co.ug
 * You can submit pull requests to this library and I'll be happy to include your changes
 
+### MIT Open Source License
+Check out the license in the file:
+
+	license.txt
+
 -Arnold Mwumva Ford
  ford@meridiansoftech.net / fordarnold@gmail.com
  @fordarnold 
